@@ -26,12 +26,12 @@ export default function Header() {
                 )}
             </div>
             {showMenu && (
-                <div className="sm:hidden fixed w-full h-screen top-0 left-0 bg-opacity-50 text-red-50 bg-slate-500 z-10 flex items-start duration-200 ease-in-out">
+                <div className="sm:hidden fixed w-full h-screen top-0 left-0 bg-opacity-50 text-red-50 z-10 flex items-start duration-200 ease-in-out" onClick={()=>setShowMenu(false)} >
                     <ul className="bg-purple-900 bg-opacity-50 ml-auto mt-5 rounded-md overflow-hidden">
-                        <li className="py-2 px-4 text-left hover:bg-purple-700 cursor-pointer ease-in-out duration-150">
+                        <li className="flex w-28 h-10 justify-center items-center text-left hover:bg-purple-700 cursor-pointer ease-in-out duration-150 hover:font-bold">
                             Contact me
                         </li>
-                        <li className="py-2 px-4 text-left hover:bg-purple-700 cursor-pointer ease-in-out duration-150">
+                        <li className="flex w-28 h-10 justify-center items-center text-left hover:bg-purple-700 cursor-pointer ease-in-out duration-150 hover:font-bold">
                             Projects
                         </li>
                     </ul>
