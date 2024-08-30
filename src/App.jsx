@@ -7,7 +7,7 @@ import SocialMedia from "./components/socialMedia/SocialMedia";
 
 function App() {
     return (
-        <div className="bg-gradient-to-br from-sky-800 to-sky-950 w-full h-screen box-border overflow-hidden">
+        <div className="app  w-full h-screen box-border overflow-y-auto font-handlee font-bold">
             <Header />
             <Body />
             <SocialMedia />

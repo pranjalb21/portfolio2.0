@@ -1,4 +1,5 @@
 import React from "react";
+import { FaLocationDot } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 
 export default function Body() {
@@ -21,10 +22,16 @@ export default function Body() {
             <div className="md:text-left text-transparent  p-2 md:self-center bg-gradient-to-br from-gray-400 to-gray-100 bg-clip-text mr-20 md:-translate-x-1/2 md:-translate-y-2/3 translate-x-1/4">
                 <h1 className="text-4xl">Pranjal Gain</h1>
                 <p className="mt-3">MERN Stack Developer</p>
+                <p>
+                    <span className="text-white inline-block mr-1 translate-y-0.5">
+                        <FaLocationDot />
+                    </span>
+                    Kolkata, West Bengal, India
+                </p>
                 <Link
-                    className="bg-gradient-to-tr mt-4 from-purple-400 to-blue-700 text-white w-fit py-1 px-4 rounded-md cursor-pointer text-center
-                hover:scale-105 ease-in-out duration-200 relative group active:translate-y-1 block"
-                to={'/about'}
+                    className="bg-gradient-to-tr mt-4 from-purple-400 to-blue-700 text-white w-fit py-1 px-4 rounded-md cursor-pointer  text-center
+                hover:scale-105 ease-in-out duration-200 relative group active:translate-y-1 block shadow-sm shadow-black"
+                    to={"/about"}
                 >
                     About me
                     <span className="absolute group-hover:inline-block ml-2 font-bold text-xl top-0 -right-1 h-full group-hover:translate-x-1 duration-300">
