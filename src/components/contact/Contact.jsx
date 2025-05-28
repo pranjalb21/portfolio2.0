@@ -10,7 +10,7 @@ export default function Contact() {
         <div className="fixed h-screen w-full  z-20 top-0 left-0 bg-opacity-30 flex justify-center items-center p-8  backdrop-blur-md">
             <div className="bg-slate-500 bg-opacity-80 h-full md:w-3/4 w-full relative p-8 flex flex-col justify-center items-center rounded-md animate-late-load-animate text-white overscroll-y-auto">
                 <CloseButton />
-                <div className="w-full flex justify-center items-center ">
+                <div className="w-full flex justify-center items-center overflow-x-auto">
                     <img
                         src="./contact.png"
                         alt="contact"

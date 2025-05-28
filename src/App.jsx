@@ -4,6 +4,8 @@ import Body from "./components/body/Body";
 import Contact from "./components/contact/Contact";
 import Header from "./components/header/Header";
 import SocialMedia from "./components/socialMedia/SocialMedia";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.js";
 
 function App() {
     return (
